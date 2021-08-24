@@ -1,0 +1,2 @@
+class Boon < ApplicationRecord
+end

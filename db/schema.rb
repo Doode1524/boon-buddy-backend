@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2021_08_24_210917) do
   create_table "boons", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.string "prerequisite"
+    t.integer "prerequisites"
     t.boolean "duo", default: false
     t.boolean "legendary", default: false
     t.integer "god_id"

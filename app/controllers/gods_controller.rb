@@ -4,8 +4,8 @@ class GodsController < ApplicationController
   # GET /gods
   def index
     @gods = God.all
-
-    render json: @gods, except: [:created_at, :updated_at]
+    
+    render json: @gods, include: [:boons], except: [:created_at, :updated_at]
   end
 
   # GET /gods/1

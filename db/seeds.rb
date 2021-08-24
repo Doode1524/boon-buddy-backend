@@ -15,4 +15,7 @@ God.create(name: "Poseidon", title: "God of the Sea", image: "https://static.wik
 God.create(name: "Zeus", title: "King of the Olympians", image: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/3/3c/Zeus.png/revision/latest/scale-to-width-down/1000?cb=20200710034046", icon: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c5/Zeus_symbol.png/revision/latest/scale-to-width-down/304?cb=20181212020227")
 God.create(name: "Chaos", title: "Primordial Originator", image: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/8f/Chaos.png/revision/latest/scale-to-width-down/1000?cb=20190115213843", icon: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/14/Chaos_symbol.png/revision/latest/scale-to-width-down/305?cb=20190119213305")
 
-Boon.create(name: "Heartbreak Strike", description: "Your Attack deals more damage and inflicts Weak.")
+Boon.create(name: "Heartbreak Strike", description: "Your Attack deals more damage and inflicts Weak.", god_id: 1)
+Boon.create(name: "Heartbreak Flourish", description: "Your Special deals more damage and inflicts Weak.", god_id: 1)
+
+

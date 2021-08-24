@@ -23,3 +23,20 @@ Things you may want to cover:
 
 * ...
 # boon-buddy-backend
+
+
+
+boons_gods
+belongs to god
+belongs to boon
+
+BoonsGods.create(god_id: 1, boon_id 1)
+
+god1.boons(findby )
+
+god.create god 1
+boon.create boon 1 god_id 1
+
+gods
+has many boonsgods
+has many boons through boonsgods

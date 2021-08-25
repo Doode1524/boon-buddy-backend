@@ -20,9 +20,9 @@ God.create(name: "Chaos", title: "Primordial Originator", image: "https://lh3.go
 ######## BOONS #########
 
 ######## Aphrodite #########
-@heartbreak_strike = Boon.create(name: "Heartbreak Strike", description: "Your Attack deals more damage and inflicts Weak.")
+Boon.create(name: "Heartbreak Strike", description: "Your Attack deals more damage and inflicts Weak.", prerequisites: ["Heartbreak Flourish", "Crush Shot"])
 
-Boon.create(name: "Heartbreak Flourish", description: "Your Special deals more damage and inflicts Weak.", prerequisites: [@heartbreak_strike])
+Boon.create(name: "Heartbreak Flourish", description: "Your Special deals more damage and inflicts Weak.")
 
 Boon.create(name: "Crush Shot", description: "Your Cast is a wide, short-range blast that inflicts Weak.")
 
@@ -50,6 +50,12 @@ Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer 
 
 Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
+Boon.create(name: "Curse of Longing", description: "Your Doom effects continuously strike Weak foes.", duo: true)
+
+
+######## Ares #########
+
+######## Duos #########
+
 
 

@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2021_08_25_011704) do
     t.string "name"
     t.string "description"
     t.string "image"
-    t.string "prerequisites"
+    t.text "prerequisites"
     t.boolean "duo", default: false
     t.boolean "legendary", default: false
     t.datetime "created_at", precision: 6, null: false

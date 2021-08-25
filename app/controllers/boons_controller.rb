@@ -5,7 +5,7 @@ class BoonsController < ApplicationController
   def index
     @boons = Boon.all
 
-    render json: @boons
+    render json: @boons, include: [:gods]
   end
 
   # GET /boons/1

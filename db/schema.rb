@@ -10,16 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_24_210917) do
+ActiveRecord::Schema.define(version: 2021_08_25_011704) do
 
   create_table "boons", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.string "image"
-    t.integer "prerequisites"
-    t.integer "duo"
+    t.string "prerequisites"
+    t.boolean "duo", default: false
     t.boolean "legendary", default: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "duos", force: :cascade do |t|
     t.integer "god_id"
+    t.integer "boon_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -40,3 +40,11 @@ boon.create boon 1 god_id 1
 gods
 has many boonsgods
 has many boons through boonsgods
+
+
+
+broken resove.prereqs: [
+    boon_id: 2
+    boon_id: 21
+    boon_id: 69
+]

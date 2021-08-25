@@ -4,10 +4,9 @@ class CreateBoons < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :description
       t.string :image
-      t.integer :prerequisites, array: true
-      t.integer :duo
+      t.string :prerequisites, array: true
+      t.boolean :duo, :default => false
       t.boolean :legendary, :default => false
-      t.integer :god_id
 
       t.timestamps
     end

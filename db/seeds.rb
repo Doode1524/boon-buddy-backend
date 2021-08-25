@@ -20,36 +20,36 @@ God.create(name: "Chaos", title: "Primordial Originator", image: "https://lh3.go
 ######## BOONS #########
 
 ######## Aphrodite #########
-Boon.create(name: "Heartbreak Strike", description: "Your Attack deals more damage and inflicts Weak.", god_id: 1)
+@heartbreak_strike = Boon.create(name: "Heartbreak Strike", description: "Your Attack deals more damage and inflicts Weak.")
 
-Boon.create(name: "Heartbreak Flourish", description: "Your Special deals more damage and inflicts Weak.", god_id: 1)
+Boon.create(name: "Heartbreak Flourish", description: "Your Special deals more damage and inflicts Weak.", prerequisites: [@heartbreak_strike])
 
-Boon.create(name: "Crush Shot", description: "Your Cast is a wide, short-range blast that inflicts Weak.", god_id: 1)
+Boon.create(name: "Crush Shot", description: "Your Cast is a wide, short-range blast that inflicts Weak.")
 
-Boon.create(name: "Passion Flare", description: "Your Cast damages foes around you and inflicts Weak.", god_id: 1)
+Boon.create(name: "Passion Flare", description: "Your Cast damages foes around you and inflicts Weak.")
 
-Boon.create(name: "Passion Dash", description: "Your Dash inflicts damage where you end up, inflicting Weak.", god_id: 1)
+Boon.create(name: "Passion Dash", description: "Your Dash inflicts damage where you end up, inflicting Weak.")
 
-Boon.create(name: "Aphrodite's Aid", description: "Your Call fires a seeking projectile that inflicts Charm. Full Gauge Bonus: 2500 damage.", god_id: 1)
+Boon.create(name: "Aphrodite's Aid", description: "Your Call fires a seeking projectile that inflicts Charm. Full Gauge Bonus: 2500 damage.")
 
-Boon.create(name: "Dying Lament", description: "Dying Lament", god_id: 1)
+Boon.create(name: "Dying Lament", description: "Dying Lament")
 
-Boon.create(name: "Wave of Despair", description: "After you take damage, damage nearby foes and inflict Weak.", god_id: 1)
+Boon.create(name: "Wave of Despair", description: "After you take damage, damage nearby foes and inflict Weak.")
 
-Boon.create(name: "Different League", description: "Resist some damage from nearby foes' attacks.", god_id: 1)
+Boon.create(name: "Different League", description: "Resist some damage from nearby foes' attacks.")
 
-Boon.create(name: "Life Affirmation", description: "Any Health or Health chamber rewards are worth more.", god_id: 1)
+Boon.create(name: "Life Affirmation", description: "Any Health or Health chamber rewards are worth more.")
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.", god_id: 1)
+Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.", god_id: 1)
+Boon.create(name: "Sweet Surrender", description: "Your Weak effects have a longer duration.")
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.", god_id: 1)
+Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.", god_id: 1)
+Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.", god_id: 1)
+Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.", god_id: 1)
+Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
 
 

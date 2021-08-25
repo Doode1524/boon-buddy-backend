@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :duos
   resources :prequisites
   resources :boons
   resources :gods

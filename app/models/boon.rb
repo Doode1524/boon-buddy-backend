@@ -1,3 +1,4 @@
 class Boon < ApplicationRecord
-    belongs_to :god
+    has_many :duos
+    has_many :gods, through: :duos
 end

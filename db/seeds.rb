@@ -19,8 +19,8 @@ God.create(name: "Chaos", title: "Primordial Originator", image: "https://lh3.go
 
 ######## BOONS #########
 
-######## Aphrodite #########
-Boon.create(name: "Heartbreak Strike", description: "Your Attack deals more damage and inflicts Weak.", prerequisites: ["Heartbreak Flourish", "Crush Shot"])
+######## Aphrodite (1) #########
+Boon.create(name: "Heartbreak Strike", description: "Your Attack deals more damage and inflicts Weak.")
 
 Boon.create(name: "Heartbreak Flourish", description: "Your Special deals more damage and inflicts Weak.")
 
@@ -40,17 +40,33 @@ Boon.create(name: "Different League", description: "Resist some damage from near
 
 Boon.create(name: "Life Affirmation", description: "Any Health or Health chamber rewards are worth more.")
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
+Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.", prerequisites: ["Heartbreak Strike", "Heartbreak Flourish", "Crush Shot", "Passion Dash"])
 
-Boon.create(name: "Sweet Surrender", description: "Your Weak effects have a longer duration.")
+Boon.create(name: "Sweet Surrender", description: "Weak-afflicted foes are also more susceptible to damage.", prerequisites: ["Heartbreak Strike", "Heartbreak Flourish", "Crush Shot", "Passion Dash"])
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
+Boon.create(name: "Broken Resolve", description: "Your Weak effects are more potent.", prerequisites: ["Heartbreak Strike", "Heartbreak Flourish", "Crush Shot", "Passion Dash"])
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
+Boon.create(name: "Blown Kiss", description: "Your Cast shoots farther and is stronger against undamaged foes.", prerequisites: ["Crush Shot"])
 
-Boon.create(name: "Empty Inside", description: "Your Weak effects have a longer duration.")
+Boon.create(name: "Unhealthy Fixation", description: "Your Weak effects also have a 15% chance to Charm foes.", legendary: true, prerequisites: [["Heartbreak Strike", "Heartbreak Flourish", "Crush Shot", "Passion Dash"], ["Empty Inside", "Sweet Surrender", "Broken Resolve"]])
 
-Boon.create(name: "Curse of Longing", description: "Your Doom effects continuously strike Weak foes.", duo: true)
+Duo.create(boon_id: 1, god_id: 1) # Heartbreak Strike
+Duo.create(boon_id: 2, god_id: 1) # Heartbreak Flourish
+Duo.create(boon_id: 3, god_id: 1) # Crush Shot
+Duo.create(boon_id: 4, god_id: 1) # Passion Flare
+Duo.create(boon_id: 5, god_id: 1) # Passion Dash
+Duo.create(boon_id: 6, god_id: 1) # Aphrodite's Aid
+Duo.create(boon_id: 7, god_id: 1) # Dying Lament
+Duo.create(boon_id: 8, god_id: 1) # Wave of Despair
+Duo.create(boon_id: 9, god_id: 1) # Different league
+Duo.create(boon_id: 10, god_id: 1) # Life Affirmation
+Duo.create(boon_id: 11, god_id: 1) # Empty Inside
+Duo.create(boon_id: 12, god_id: 1) # Sweet Surrender
+Duo.create(boon_id: 13, god_id: 1) # Broken Resolve
+Duo.create(boon_id: 14, god_id: 1) # Blown Kiss
+Duo.create(boon_id: 15, god_id: 1) # Unhealthy Fixation (Legendary)
+
+# Boon.create(name: "Curse of Longing", description: "Your Doom effects continuously strike Weak foes.", duo: true)
 
 
 ######## Ares #########

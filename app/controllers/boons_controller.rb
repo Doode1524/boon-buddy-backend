@@ -5,7 +5,9 @@ class BoonsController < ApplicationController
   def index
     @boons = Boon.all
 
-    render json: @boons, include: [:gods]
+    render json: @boons, except: [:created_at, :updated_at], include: [:gods=> {:except=> [:created_at,:updated_at]}]
+
+    # render json: @boons, include: [:gods]
   end
 
   # GET /boons/1

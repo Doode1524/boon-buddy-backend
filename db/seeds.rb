@@ -121,6 +121,52 @@ Duo.create(boon_id: 29, god_id: 2) # Impending Doom
 Duo.create(boon_id: 30, god_id: 2) # Vicious Cycle
 
 
+######## Artemis (3) #########
+
+Boon.create(name: "Deadly Strike", description: "Your Attack is stronger, with +15% chance to deal Critical damage.")
+
+Boon.create(name: "Deadly Flourish", description: "Your Special is stronger, with +20% chance to deal Critical Damage.")
+
+Boon.create(name: "True Shot", description: "Your Cast seeks foes, with a 10% chance to deal Critical damage.")
+
+Boon.create(name: "Hunter's Flare", description: "Your Cast damages foes around you, with a 10% Critical chance.")
+
+Boon.create(name: "Hunter Dash", description: "Your Dash-Strike deals more damage.")
+
+Boon.create(name: "Artemis' Aid", description: "Your Call fires a seeking arrow with +35% Critical chance.")
+
+Boon.create(name: "Pressure Points", description: "Any damage you deal has a chance to be Critical.")
+
+Boon.create(name: "Exit Wounds", description: "Your foes take damage when your Cast Ammo stuck in them is dislodged.", prerequisites: ["Crush Shot", "True Shot", "Phalanx Shot", "Flood Shot", "Electric Shot"])
+
+Boon.create(name: "Hide Breaker", description: "Your Critical effects deal even more damage to Armor.", prerequisites: ["Deadly Strike", "Deadly Flourish", "True Shot", "Artemis' Aid", "Pressure Points"])
+
+Boon.create(name: "Clean Kill", description: "Your Critical effects deal even more damage.", prerequisites: ["Deadly Strike", "Deadly Flourish", "True Shot", "Artemis' Aid", "Pressure Points"])
+
+Boon.create(name: "Hunter Instinct", description: "Your God Gauge charges faster when you deal Critical damage.", prerequisites: ["Deadly Strike", "Deadly Flourish", "True Shot", "Pressure Points"])
+
+Boon.create(name: "Hunter's Mark", description: "After you deal Critical damage to a foe, a foe near it is Marked.", prerequisites: ["Deadly Strike", "Deadly Flourish", "True Shot", "Artemis' Aid", "Pressure Points"])
+
+Boon.create(name: "Support Fire", description: "After you Cast, or hit with an Attack or Special, fire a seeking arrow.", prerequisites: ["Deadly Strike", "Deadly Flourish", "True Shot", "Hunter Dash", "Artemis' Aid", "Pressure Points"])
+
+Boon.create(name: "Fully Loaded", description: "Gain extra Cast Ammo for your Cast.", legendary: true, prerequisites: ["Exit Wounds", "Pressure Points", "Support Fire"])  ## Check this. Requires 2 prereqs
+
+Duo.create(boon_id: 31, god_id: 3) # Deadly Strike
+Duo.create(boon_id: 32, god_id: 3) # Deadly Flourish
+Duo.create(boon_id: 33, god_id: 3) # True shot
+Duo.create(boon_id: 34, god_id: 3) # Hunter's Flare
+Duo.create(boon_id: 35, god_id: 3) # Hunter's dash
+Duo.create(boon_id: 36, god_id: 3) # Artemis' Aid
+Duo.create(boon_id: 37, god_id: 3) # Pressure Points
+Duo.create(boon_id: 38, god_id: 3) # Exit Wounds
+Duo.create(boon_id: 39, god_id: 3) # Hide Breaker
+Duo.create(boon_id: 40, god_id: 3) # Clean Kill
+Duo.create(boon_id: 41, god_id: 3) # Hunter Instinct
+Duo.create(boon_id: 42, god_id: 3) # Hunter's Mark
+Duo.create(boon_id: 43, god_id: 3) # Support Fire
+Duo.create(boon_id: 44, god_id: 3) # Fully Loaded
+
+
 ######## Duos #########
 
 

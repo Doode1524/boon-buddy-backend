@@ -15,10 +15,11 @@ God.create(name: "Hermes", title: "God of Swiftness", image: "https://pbs.twimg.
 
 God.create(name: "Poseidon", title: "God of the Sea", image: "https://preview.redd.it/dj68be9vcn761.jpg?width=1823&format=pjpg&auto=webp&s=b164cf8d5032c8d69359b8e67dbd6b95366429aa", icon: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c6/Poseidon_symbol.png/revision/latest/scale-to-width-down/333?cb=20181212020226")
 
-God.create(name: "Zeus", title: "King of the Olympians", image: "https://lh3.googleusercontent.com/yHeLnXus5CStsJ3pCtSHUSCfUzlAzH6gGaqXzjin6GbhzkJ7XTjR8oGGpb1_6MNEL9UrCA=s85", icon: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c5/Zeus_symbol.png/revision/latest/scale-to-width-down/304?cb=20181212020227")
+God.create(name: "Zeus", title: "King of the Olympians", image: "https://lh3.googleusercontent.com/f7BU129kT13CKxgNXi7Gzq0KMNfJBDmbdaYIimjyh6t8AOyAGNphCzVVaU65aXwMAUuK=s85", icon: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c5/Zeus_symbol.png/revision/latest/scale-to-width-down/304?cb=20181212020227")
 
-God.create(name: "Chaos", title: "Primordial Originator", image: "https://lh3.googleusercontent.com/rJfP2RH9wLYz884dXCqP0GdNkEFGDyIYGhp5LTXQtriN4TeTDurUpaVngHP1QIOd0caS=s85", icon: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/14/Chaos_symbol.png/revision/latest/scale-to-width-down/305?cb=20190119213305")
+God.create(name: "Chaos", title: "Primordial Originator", image: "https://lh3.googleusercontent.com/c_HLXE25P7CH1J9t1bGxVERWl1GJCn30Q0caUT0kn_rMU7GwOpMd_JOjqJNLh7GtLZyBQw=s85", icon: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/14/Chaos_symbol.png/revision/latest/scale-to-width-down/305?cb=20190119213305")
 
+God.create(name: "Demeter", title: "Goddess of Seasons", image: "https://pbs.twimg.com/media/Er27jSPXMAEmI7e.jpg", icon: "https://static.wikia.nocookie.net/hades_gamepedia_en/images/1/14/Chaos_symbol.png/revision/latest/scale-to-width-down/305?cb=20190119213305")
 
 ########################
 ######## BOONS #########

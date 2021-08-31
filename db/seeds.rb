@@ -168,6 +168,54 @@ Duo.create(boon_id: 43, god_id: 3) # Support Fire
 Duo.create(boon_id: 44, god_id: 3) # Fully Loaded
 
 
+######## Athena (4) #########
+Boon.create(name: "Divine Strike", description: "Your Attack is stronger, and can Deflect.")
+
+Boon.create(name: "Divine Flourish", description: "Your Special is stronger, and can Deflect.")
+
+Boon.create(name: "Phalanx Shot", description: "Your Cast damages foes in a small area, and can Deflect.")
+
+Boon.create(name: "Phalanx Flare", description: "Your Cast damages foes around you, and can Deflect.")
+
+Boon.create(name: "Divine Dash", description: "Your Dash deals damage and can Deflect.")
+
+Boon.create(name: "Athena's Aid	", description: "Your Call briefly makes you Invulnerable and Deflect all attacks.")
+
+Boon.create(name: "Holy Shield", description: "After you take damage, damage nearby foes and briefly Deflect.")
+
+Boon.create(name: "Bronze Skin", description: "Resist damage from foes' attacks.")
+
+Boon.create(name: "Sure Footing", description: "Resist damage from Traps.")
+
+Boon.create(name: "Proud Bearing", description: "You begin each Encounter with your God Gauge partly full.", prerequisites: ["Aphrodite's Aid", "Ares' Aid", "Artemis' Aid", "Athena's Aid,", "Demeter's Aid", "Dionysus' Aid", "Poseidon's Aid", "Zeus' Aid"])
+
+Boon.create(name: "Blinding Flash", description: "Your abilities that can Deflect also make foes Exposed for 5 Sec.", prerequisites: ["Divine Strike", "Divine Flourish", "Phalanx Shot", "Divine Dash"])
+
+Boon.create(name: "Brilliant Riposte", description: "When you Deflect attacks, they deal more damage.", prerequisites: ["Divine Strike", "Divine Flourish", "Divine Dash", "Holy Shield"])
+
+Boon.create(name: "Deathless Stand", description: "Death Defiance makes you Impervious longer. Replenish 1 charge now.", prerequisites: ["Divine Strike", "Divine Flourish", "Divine Dash", "Phalanx Shot"])
+
+Boon.create(name: "Last Stand", description: "Death Defiance restores more Health than usual. Replenish 1 charge now.", prerequisites: ["Divine Strike", "Divine Flourish", "Divine Dash", "Phalanx Shot"])
+
+Boon.create(name: "Divine Protection", description: "You have a barrier that negates incoming damage.", legendary: true, prerequisites: ["Brilliant Riposte"])
+
+Duo.create(boon_id: 45, god_id: 4) # Divine Strike
+Duo.create(boon_id: 46, god_id: 4) # Divine Flourish
+Duo.create(boon_id: 47, god_id: 4) # Phalanx Shot
+Duo.create(boon_id: 48, god_id: 4) # Phalanx Flare
+Duo.create(boon_id: 49, god_id: 4) # Divine dash
+Duo.create(boon_id: 50, god_id: 4) # Athena's Aid
+Duo.create(boon_id: 51, god_id: 4) # Holy Shield
+Duo.create(boon_id: 52, god_id: 4) # Bronze Skin
+Duo.create(boon_id: 53, god_id: 4) # Sure Footing
+Duo.create(boon_id: 54, god_id: 4) # Proud Bearing
+Duo.create(boon_id: 55, god_id: 4) # Binding Flash
+Duo.create(boon_id: 56, god_id: 4) # Brilliant Riposte
+Duo.create(boon_id: 57, god_id: 4) # Deathless Stand
+Duo.create(boon_id: 58, god_id: 4) # Last Stand
+Duo.create(boon_id: 59, god_id: 4) # Divine Protection
+
+
 ######## Duos #########
 
 

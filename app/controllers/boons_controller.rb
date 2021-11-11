@@ -11,6 +11,8 @@ class BoonsController < ApplicationController
   end
 
   # GET /boons/1
+
+  # GET /boons/1/gods
   def show
     render json: @boon
   end
